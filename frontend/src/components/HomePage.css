@@ -1,0 +1,23 @@
+/* HomePage.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.section-image {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+.section-text {
+  flex: 1;
+}

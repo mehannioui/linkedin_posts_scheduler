@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.nav-link-main {
+  margin-right: 5px;
+  color: #ffffff; /* Black text color */
+}
+
+.auth-links {
+  display: flex;
+  padding: 5px;
+  background-color: #aec071; /* Blue background color */
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .auth-links {
+    order: 2;
+    margin-top: 10px;
+  }
+}
